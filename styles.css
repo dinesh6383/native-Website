@@ -1,0 +1,387 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.row {
+  width: 100%;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.nav-link {
+  margin-right: 20px;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.row h1 {
+  font-family: 'Rubik', sans-serif;
+  text-align: left;
+  margin-top: 20%;
+  margin-left: 130px;
+  font-weight: bolder;
+  font-size: 70px;
+}
+
+.row .quotes, button {
+  text-align: left;
+  margin-left: 130px;
+}
+
+.image {
+  width: 75%;
+  margin-left: 55px;
+}
+
+#famous {
+  margin-bottom: 50px;
+}
+
+#famous h2 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  padding: 40px;
+}
+
+.card-title {
+  font-weight: 900;
+}
+
+.temple-card {
+  width: 50%;
+  margin-left: 42%;
+}
+
+.falls-card {
+  width: 50%;
+  margin-left: 20%;
+}
+
+.halwa-card {
+  width: 50%;
+}
+
+#hotels h2, #agri h2{
+  font-family: 'Rubik', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  padding: 40px;
+}
+
+.restaurant h1, .farm h1 {
+  font-size: 55px;
+  margin-top: 100px;
+}
+
+.restaurant p, .farm p{
+  text-align: left;
+  margin-left: 130px;
+  margin-top: 20px;
+}
+
+.chef-image, .farmer-image{
+  width: 75%;
+  margin-left: 55px;
+}
+
+.a {
+  position: absolute;
+  width: 4%;
+  transform: rotate(20deg);
+  left: 50%;
+}
+
+.b {
+  position: absolute;
+  width: 4%;
+  margin-top: 20%;
+}
+
+.c {
+  position: absolute;
+  width: 5%;
+  left: 49%;
+  margin-top: 23%;
+  transform: rotate(-20deg);
+}
+
+.d {
+  position: absolute;
+  width: 4%;
+  left: 5%;
+}
+
+.e {
+  position: absolute;
+  width: 3%;
+  margin-top: 28%;
+  left: 38%;
+}
+
+.f {
+  position: absolute;
+  width: 5%;
+  left: 2%;
+  margin-top: 15%;
+}
+
+.g {
+  width: 5%;
+  position: absolute;
+  transform: rotate(-40deg);
+}
+
+.h {
+  position: absolute;
+  width: 5%;
+  left: 28%;
+  margin-top: 22%;
+  transform: rotate(30deg);
+}
+
+.i {
+  position: absolute;
+  left: 20%;
+  width: 6%;
+  transform: rotate(20deg);
+}
+
+.j {
+  position: absolute;
+  width: 3%;
+  left: 44%;
+  margin-top: 10%;
+}
+
+#farming h2 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  padding: 40px;
+}
+
+.heroone {
+  width: 11%;
+  margin-top: -12%;
+  margin-left: 25%;
+}
+
+.herotwo {
+  width: 11%;
+  margin-top: -12%;
+  margin-left: 28%;
+}
+.highlight{
+  color:green;
+}
+.agri-info{
+  margin-top:10%;
+  margin-left:25%;
+}
+.paddy, .oilseeds{
+  margin-left:50%;
+}
+.pulses, .sugarcane{
+  margin-left:0%;
+}
+#footer{
+  background-color: black;
+  color:white;
+  margin-top:-16px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  padding: 40px;
+}
+
+@media (max-width:1020px) {
+  .nav-link {
+    text-align: center;
+    border-bottom: 1px solid black;
+    font-weight: 600;
+    font-size: 30px;
+  }
+
+  .image {
+    margin-left: 25%;
+    width: 150%;
+  }
+
+  .row h1 {
+    text-align: center;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 70px;
+    font-size: 100px;
+  }
+
+  .row .quotes {
+    text-align: center;
+    margin-left: 0px;
+    font-size: 40px;
+    width: 100%;
+  }
+
+  .row button {
+    width: 20%;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    left: 26%;
+    margin-top: 40px;
+  }
+
+  .card-title {
+    font-size: 40px;
+  }
+
+  .card a {
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .temple-card {
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    font-size: 35px;
+  }
+
+  .falls-card {
+    width: 50%;
+    margin-top: 5%;
+    text-align: center;
+    margin-left: 25%;
+    font-size: 35px;
+  }
+
+  .halwa-card {
+    width: 50%;
+    margin-top: 5%;
+    text-align: center;
+    margin-left: 25%;
+    font-size: 35px;
+  }
+
+  .restaurant h1, .farm h1 {
+    text-align: center;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 70px;
+    font-size: 87px;
+  }
+
+  .restaurant p, .farm p {
+    text-align: center;
+    margin-left: 0px;
+    font-size: 40px;
+    width: 100%;
+  }
+
+  .restaurant button, .farm button {
+    width: 30%;
+    height: 60px;
+    font-size: 33px;
+    text-align: center;
+    position: relative;
+    left: 20%;
+    margin-top: 40px;
+  }
+
+  .chef-image, .farmer-image{
+    margin-left: 13%;
+  }
+
+  .a {
+    position: absolute;
+    width: 8%;
+    transform: rotate(20deg);
+    left: 70%;
+  }
+
+  .b {
+    position: absolute;
+    width: 8%;
+    margin-top: 13%;
+  }
+
+  .c {
+    position: absolute;
+    width: 14%;
+    left: 67%;
+    margin-top: 41%;
+    transform: rotate(-20deg);
+  }
+
+  .d {
+    position: absolute;
+    width: 8%;
+    left: 4%;
+  }
+
+  .e {
+    position: absolute;
+    width: 8%;
+    margin-top: 28%;
+    left: 70%;
+  }
+
+  .f {
+    position: absolute;
+    width: 8%;
+    left: 9%;
+    margin-top: 40%;
+  }
+
+  .g {
+    width: 10%;
+    position: absolute;
+    left: 85%;
+    margin-top: 35%;
+    transform: rotate(-40deg);
+  }
+
+  .h {
+    position: absolute;
+    width: 8%;
+    left: 15%;
+    margin-top: 22%;
+    transform: rotate(26deg);
+  }
+
+  .i {
+    position: absolute;
+    left: 24%;
+    width: 8%;
+    transform: rotate(20deg);
+  }
+
+  .j {
+    position: absolute;
+    width: 8%;
+    left: 20%;
+    margin-top: 55%;
+  }
+  .heroone, .herotwo{
+    display:none;
+  }
+  .agri-info{
+    width: 40rem !important;
+    text-align:center;
+    font-size:35px;
+    margin-left:18%;
+  }
+
+}
